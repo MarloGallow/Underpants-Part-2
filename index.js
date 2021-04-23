@@ -19,10 +19,15 @@ var _ = {};
 
 _.indexOf = function(array, value){
   //CODE BELOW HERE 
-
-
-
-
+if(array === undefined){
+  return undefined;
+for(var i = 0; i <= array.length - 1; i++){
+  if(array[1] === value){
+  
+    return -1
+}
+}
+}
   //CODE ABOVE HERE
 }
 
@@ -47,8 +52,9 @@ _.indexOf = function(array, value){
 
 _.contains = function(array, value){
 //CODE BELOW HERE
-
-
+for(var i = 0; i <= array.length -1; i++){
+(array[i] === value)? :
+}
 
 
 
